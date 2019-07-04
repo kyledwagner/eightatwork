@@ -122,3 +122,9 @@ body {background-color: #FAF9F4;}
   right: 7.2rem;
   top: 0;
 }
+
+.s-about {
+  padding-top: 16.2rem;
+  padding-bottom: 9rem;
+  position: relative;
+}
