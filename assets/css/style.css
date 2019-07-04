@@ -1,1 +1,75 @@
-/* Main CSS for Eight@Work */
+@import url('https://fonts.googleapis.com/css?family=DM+Serif+Display|DM+Serif+Text&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+/* Typography */
+h1, h2, h3, span {font-family: 'DM Serif Display', serif;color: #3F5523;}
+p {font-family: 'Quicksand', sans-serif;}
+
+body {background-color: #FAF9F4;}
+
+/* Page Fade-In */
+@keyframes fadeIn
+    to {
+       opacity: 1; }
+
+       .fade-in {
+       animation: fadeIn 3.0s ease forwards;
+       -webkit-animation: fadeIn ease 3.0s;
+       -moz-animation: fadeIn ease 3.0s;
+       -o-animation: fadeIn ease 3.0s;
+       -ms-animation: fadeIn ease 3.0s;
+     }
+
+     @keyframes fadeIn{
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+.masthead {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url('assets/img/scott-webb-oRWRlTgBrPo-unsplash.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
