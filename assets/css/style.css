@@ -1,9 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=DM+Serif+Display|DM+Serif+Text&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
 
 /* Typography */
-h1, h2, h3, span {font-family: 'DM Serif Display', serif;color: #3F5523;}
-p {font-family: 'Quicksand', sans-serif;}
+h1, h2, h3 {font-family: 'DM Serif Display', serif;}
+p, span {font-family: 'Montserrat', sans-serif;}
+
+.text-hero {
+  font-family: 'DM Serif Display', serif;
+  font-size: 4rem;
+  line-height: 1;
+  color: #FAF9F4;
+}
+
+.text-light-green {
+  color: #FAF9F4;
+}
 
 body {background-color: #FAF9F4;}
 
@@ -68,8 +79,46 @@ body {background-color: #FAF9F4;}
 .masthead {
   height: 100vh;
   min-height: 500px;
-  background-image: url('http://kylewagner.me/eightatwork/assets/img/elvira-visser-cmCgrRj9h8Q-unsplash.jpg');
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('/assets/img/peter-fogden-toB7tKXne7U-unsplash.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.home-content__line {
+  display: block;
+  width: 2px;
+  height: 10.2rem;
+  background-color: #FAF9F4;
+  position: absolute;
+  right: 7.2rem;
+  bottom: 0;
+}
+
+.home-content__scroll {
+  position: absolute;
+  right: 9.5rem;
+  bottom: 8.4rem;
+}
+
+.home-content__scroll a {
+  font-family: montserrat-semibold,sans-serif;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: .3rem;
+  color: #fff;
+  position: relative;
+  display: inline-block;
+  line-height: 3rem;
+  padding-left: 2.5rem;
+}
+
+.about__line {
+  display: block;
+  width: 2px;
+  height: 10.2rem;
+  background-color: #3F5523;
+  position: absolute;
+  right: 7.2rem;
+  top: 0;
 }
