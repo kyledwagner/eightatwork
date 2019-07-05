@@ -112,7 +112,7 @@ body {background-color: #FAF9F4;}
 
 @media only screen and (max-width: 600px) {
 .home-content__line {
-  height: 4rem;
+  height: 3.8rem;
 }
 }
 
@@ -140,6 +140,12 @@ body {background-color: #FAF9F4;}
 }
 }
 
+@media only screen and (max-width: 576px) {
+  .home-content__scroll span {
+    font-size: 0.75rem;
+  }
+}
+
 .home-content__scroll a {
   font-size: 1rem;
   text-transform: uppercase;
@@ -159,6 +165,18 @@ body {background-color: #FAF9F4;}
   position: absolute;
   right: 7.2rem;
   top: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .about__line {
+    height: 4rem;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .about__line {
+    right: 2rem;
+  }
 }
 
 .s-about {
