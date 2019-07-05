@@ -93,7 +93,6 @@ body {background-color: #FAF9F4;}
 
 .masthead {
   height: 100vh;
-  min-height: 500px;
   background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('http://kylewagner.me/eightatwork/assets/img/peter-fogden-toB7tKXne7U-unsplash-low.jpg');
   background-size: cover;
   background-position: center;
@@ -177,6 +176,30 @@ body {background-color: #FAF9F4;}
   .about__line {
     right: 2rem;
   }
+}
+
+/* Fixing Mobile Landscape View */
+@media only screen and (max-width: 800px) and (orientation: landscape) {
+  .container {
+    margin-left: 0px;
+}
+  .text-hero {
+    font-size: 3rem;
+}
+  .mobile-horizontal {
+    padding-bottom: 2.5rem;
+}
+  .home-content__line {
+    height: 3.5rem;
+    right: 1.5rem;
+}
+  .home-content__scroll {
+    bottom: 1.55rem;
+    right: 2.25rem;
+}
+  .about__line {
+    height: 4rem;
+    right: 1.5rem;
 }
 
 .s-about {
