@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=DM+Serif+Display|DM+Serif+Text&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,700&display=swap');
+
+/* Fixes ScrollReveal flicker */
+html.sr .load-hidden {
+  visibility: hidden;
+}
 
 /* Typography */
 h1, h2, h3 {font-family: 'DM Serif Display', serif;}
@@ -10,6 +15,10 @@ p, span {font-family: 'Montserrat', sans-serif;}
   font-size: 5rem;
   line-height: 1;
   color: #FAF9F4;
+}
+
+h2 {
+  font-size: 3rem;
 }
 
 .text-light-green {
@@ -102,10 +111,9 @@ body {background-color: #FAF9F4;}
 }
 
 .home-content__scroll a {
-  font-family: montserrat-semibold,sans-serif;
   font-size: 1rem;
   text-transform: uppercase;
-  letter-spacing: .3rem;
+  letter-spacing: .2rem;
   color: #fff;
   position: relative;
   display: inline-block;
@@ -127,4 +135,15 @@ body {background-color: #FAF9F4;}
   padding-top: 16.2rem;
   padding-bottom: 9rem;
   position: relative;
+}
+
+.nav-text {
+  font-size: 1rem;
+  font-size:1.25rem;
+  font-weight:300;
+  color: #fff;
+}
+
+.nav-text:hover {
+  text-decoration: none;
 }
