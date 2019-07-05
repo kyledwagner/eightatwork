@@ -110,10 +110,34 @@ body {background-color: #FAF9F4;}
   bottom: 0;
 }
 
+@media only screen and (max-width: 600px) {
+.home-content__line {
+  height: 4rem;
+}
+}
+
+@media only screen and (max-width: 700px) {
+.home-content__line {
+  right: 2rem;
+}
+}
+
 .home-content__scroll {
   position: absolute;
   right: 9.5rem;
   bottom: 8.4rem;
+}
+
+@media only screen and (max-width: 600px) {
+.home-content__scroll {
+  bottom: 2rem;
+}
+}
+
+@media only screen and (max-width: 700px) {
+.home-content__scroll {
+  right: 3rem;
+}
 }
 
 .home-content__scroll a {
