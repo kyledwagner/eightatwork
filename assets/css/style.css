@@ -256,7 +256,7 @@ a:hover {
 }
 .s-contact {
   background-color: #151515;
-  background-image: url('http://kylewagner.me/eightatwork/assets/img/peter-fogden-toB7tKXne7U-unsplash-low.jpg');
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('http://kylewagner.me/eightatwork/assets/img/peter-fogden-toB7tKXne7U-unsplash-low.jpg');
   background-repeat: no-repeat;
   background-position: center,center;
   padding-top: 15rem;
