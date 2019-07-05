@@ -206,6 +206,7 @@ body {background-color: #FAF9F4;}
 }
 }
 
+/* Text Underline Hover Effect */
 a.middle
 {
   position: relative;
@@ -226,10 +227,14 @@ a.middle:hover:before, a.middle:focus:before, a.middle:active:before {
   visibility: visible;
   transform: scaleX(1);
 }
+a:hover {
+  text-decoration: none !important;
+  color: none !important;
+}
 
 .s-about {
   padding-top: 16.2rem;
-  padding-bottom: 9rem;
+  padding-bottom: 5rem;
   position: relative;
 }
 
@@ -239,7 +244,35 @@ a.middle:hover:before, a.middle:focus:before, a.middle:active:before {
   color: #FAF9F4;
 }
 
-a:hover {
-  text-decoration: none !important;
-  color: none !important;
+.contact__line {
+  display: block;
+  width: 2px;
+  height: 20.4rem;
+  background-color: #3F5523;
+  position: absolute;
+  left: 50%;
+  top: -10.2rem;
+  margin-left: -1px;
+}
+.s-contact {
+  background-color: #151515;
+  background-image: url('http://kylewagner.me/eightatwork/assets/img/peter-fogden-toB7tKXne7U-unsplash-low.jpg');
+  background-repeat: no-repeat;
+  background-position: center,center;
+  padding-top: 15rem;
+  padding-bottom: 12rem;
+  color: rgba(255,255,255,.5);
+  position: relative;
+}
+
+.s-services {
+  padding-bottom: 15rem;
+}
+
+/* Rellax JS Shapes */
+.circlesmall {
+  height: 10rem;
+  width: 10rem;
+  background-color:#F7F4DB;
+  border-radius: 50%;
 }

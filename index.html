@@ -32,7 +32,7 @@
         <header class="masthead">
             <div class="d-flex flex-column flex-md-row align-items-center p-3 p-md-5 bg-transparent">
                 <img src="http://kylewagner.me/eightatwork/assets/img/logo/8-icon.svg" width="36" height="36" class="d-inline-block" alt="Eight@Work Logo">
-                <h3 class="my-0 mr-md-auto ml-2 text-light-green">Eight@Work</h3>
+                <h3 class="my-0 mr-md-auto ml-md-3 text-light-green">Eight@Work</h3>
                 <nav class="my-2 my-md-0 mr-md-3">
                     <a data-scroll class="p-1 mx-2 nav-text d-none d-md-inline text-light-green middle" href="#about">About Us</a>
                     <a data-scroll class="p-1 mx-2 nav-text d-none d-md-inline text-light-green middle" href="#contact">Contact</a>
@@ -64,17 +64,62 @@
         <div class="container py-5">
             <div class="row">
                 <div class="col-md-10">
-                    <h2 class="reveal">About Us</h2>
+                    <span class="reveal text-uppercase">Hello there</span>
+                    <h2 class="reveal">We are Eight@Work</h2>
                     <p class="lead reveal">Eight@Work is a privately-held conglomerate of independent companies providing travel and hospitality services around the globe.  With our team of nearly 400 associates worldwide, we are able to provide you with travel and marketing solutions anywhere you are and anywhere you want to be.</p>
                 </div>
             </div>
+        </div>
+        <div class="rellax" data-rellax-speed="2">
+                <div class="circlesmall"></div>
         </div>
         <div class="about__line"></div>
     </section>
 
     <!-- What We Do -->
-    <section id="what-we-do" class="h-100">
+    <section id="what-we-do" class="s-services h-100">
+        <div class="container py-5">
+            <div class="row text-center">
+                <div class="col-10 mx-auto pb-lg-5">
+                <span class="reveal text-uppercase pb-1">What We Do</span>
+                <h2 class="services">We have a diverse portfolio of travel entities.</h2>
+                </div>
+            </div>
+            <div class="row text-left pt-5">
+                <div class="col-12 col-sm-6 col-md-5">
+                    <img alt="image" class="services pb-3 ml-n2" src="assets/icons/007-world.svg" width="80" height="80">
+                    <h3 class="services">Destination Management Companies (DMCs)</h3>
+                    <p class="services">We specialize in developing and operating DMCs throughout Asia. Through strategic partnerships and our 25+ fully-owned-and-operated offices throughout the globe, we provide tours, excursions, transfers, flights, and hotels which are completely customized to your personal desires.  Because we have such a strong presence in the destinations we serve, we are able to negotiate lower rates, maintain higher-quality operations, and provide real-time updates for events on the ground.</p>
+                </div>
 
+                <div class="col-12 col-sm-6 col-md-5 ml-sm-auto pt-5 pt-sm-0">
+                    <img alt="image" class="services pb-3 ml-n2" src="assets/icons/094-presentation.svg" width="80" height="80">
+                    <h3 class="services">Sales and Marketing Representation</h3>
+                    <p class="services">No matter if you are a European DMC expanding into Asia, or an Asian hotel seeking customers from America, you will need an upgraded level of sales and marketing representation to properly present your organization to the world.  Because we have a network of representatives in many markets, we have the advantage of understanding both your market and that of your audience.  We will customize the concepts, strategies, and key relationships needed to gain the results you are looking for.</p>
+                </div>
+            </div>
+            <div class="row text-left pt-5">
+                    <div class="col-12 col-sm-6 col-md-5">
+                        <img alt="image" class="services pb-3 ml-n2" src="assets/icons/036-plane.svg" width="80" height="80">
+                        <h3 class="services">Tour Operators</h3>
+                        <p class="services">Our wholesale tour operators bring exclusive, creative, competitively-priced tours and excursions to travel agents, tour operators, and consumers.  We focus on sharing our amazing Asian destinations with tourists from around the world.  Whether you want an expert-guided, private tour on a multi-day trek through Myanmar, or to join a group of like-minded travelers on a tropical beach in Bali, we provide a wide-variety of options for every traveler’s taste and budget.</p>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-md-5 ml-sm-auto pt-5 pt-sm-0">
+                        <img alt="image" class="services pb-3 ml-n2" src="assets/icons/048-heart.svg" width="80" height="80">
+                        <h3 class="services">Hospitality</h3>
+                        <p class="services">In addition to operating restaurant properties in Asia, we offer management services to hotels who wish to increase occupancies and revenue.  Because we are a vertically-integrated company, we have influence over the entire distribution channel and can produce results that other management companies simply can’t match.</p>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="s-contact h-100">
+        <div class="container">
+
+        </div>
+        <div class="contact__line"></div>
     </section>
 
     <!-- Footer -->
@@ -132,8 +177,17 @@
             easing: 'ease',
             delay: 200,
             interval: 250,
-            duration: 500,
+            duration: 750,
             mobile: true,
+            reset: false,
+        });
+        ScrollReveal().reveal('.services', {
+            easing: 'ease',
+            delay: 200,
+            interval: 75,
+            duration: 750,
+            mobile: true,
+            reset: false,
         });
         </script>
     </body>
