@@ -25,6 +25,9 @@ h2 {
 .text-light-green {
   color: #FAF9F4;
 }
+a.text-light-green {
+  color: #FAF9F4;
+}
 
 @media only screen and (max-width: 576px) {
   .text-hero {
@@ -203,6 +206,27 @@ body {background-color: #FAF9F4;}
 }
 }
 
+a.middle
+{
+  position: relative;
+}
+a.middle:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #FAF9F4;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.2s ease-in-out;
+}
+a.middle:hover:before, a.middle:focus:before, a.middle:active:before {
+  visibility: visible;
+  transform: scaleX(1);
+}
+
 .s-about {
   padding-top: 16.2rem;
   padding-bottom: 9rem;
@@ -212,9 +236,10 @@ body {background-color: #FAF9F4;}
 .nav-text {
   font-size: 1rem;
   font-weight:300;
-  color: #fff;
+  color: #FAF9F4;
 }
 
-.nav-text:hover {
-  text-decoration: none;
+a:hover {
+  text-decoration: none !important;
+  color: none !important;
 }
