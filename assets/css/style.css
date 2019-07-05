@@ -8,7 +8,7 @@ html.sr .load-hidden {
 
 /* Typography */
 h1, h2, h3 {font-family: 'DM Serif Display', serif;}
-p, span {font-family: 'Montserrat', sans-serif;}
+p, span {font-family: 'Montserrat', sans-serif; margin-bottom: 0rem;}
 
 .text-hero {
   font-family: 'DM Serif Display', serif;
@@ -26,6 +26,11 @@ h2 {
   color: #FAF9F4;
 }
 
+@media only screen and (max-width: 576px) {
+  .text-hero {
+    font-size: 3rem;
+  }
+}
 body {background-color: #FAF9F4;}
 
 /* Page Fade-In */
