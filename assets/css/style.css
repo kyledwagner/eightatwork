@@ -292,6 +292,17 @@ a:hover {
   padding-bottom: 15rem;
 }
 
+html {
+  overflow-x: hidden !important;
+  overflow-x: -moz-hidden-unscrollable !important;
+}
+
+/* Mobile Overflow Issue */
+.wrapper {
+  overflow: hidden !important;
+  overflow: -moz-hidden-unscrollable !important;
+}
+
 /* Rellax JS Shapes */
 .circleright {
   height: 30rem;
@@ -300,8 +311,6 @@ a:hover {
   position:absolute;
   background-color:#F7F4DB;
   border-radius: 50%;
-  overflow: hidden !important;
-  overflow: -moz-hidden-unscrollable !important;
 }
 .circleleft {
   height: 17rem;
@@ -311,8 +320,6 @@ a:hover {
   position:absolute;
   background-color:#F7F4DB;
   border-radius: 50%;
-  overflow: hidden !important;
-  overflow: -moz-hidden-unscrollable !important;
 }
 .circleoutlineleft {
   height: 10rem;
@@ -322,8 +329,6 @@ a:hover {
   position:absolute;
   box-shadow: inset 0 0 0 0.1em #3F5523;
   border-radius: 50%;
-  overflow: hidden !important;
-  overflow: -moz-hidden-unscrollable !important;
 }
 .circleoutlineright {
   height: 12rem;
@@ -333,8 +338,6 @@ a:hover {
   position:absolute;
   box-shadow: inset 0 0 0 0.1em #3F5523;
   border-radius: 50%;
-  overflow: hidden !important;
-  overflow: -moz-hidden-unscrollable !important;
 }
 @media only screen and (max-width: 576px) {
   .circleoutlineright {
