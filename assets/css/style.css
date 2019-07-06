@@ -7,8 +7,8 @@ html.sr .load-hidden {
 }
 
 html {
-  overflow-x: hidden;
-  overflow-x: -moz-hidden-unscrollable;
+  overflow-x: hidden !important;
+  overflow-x: -moz-hidden-unscrollable !important;
 }
 
 /* Typography */
@@ -305,6 +305,7 @@ a:hover {
   position:absolute;
   background-color:#F7F4DB;
   border-radius: 50%;
+  overflow-x: hidden !important;
 }
 .circleleft {
   height: 17rem;
