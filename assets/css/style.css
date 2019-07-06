@@ -7,8 +7,8 @@ html.sr .load-hidden {
 }
 
 html {
-  overflow-x: hidden !important;
-  overflow-x: -moz-hidden-unscrollable !important;
+  overflow: hidden !important;
+  overflow: -moz-hidden-unscrollable !important;
 }
 
 /* Typography */
