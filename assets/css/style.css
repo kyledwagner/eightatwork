@@ -299,6 +299,11 @@ a:hover {
 .s-services {
   padding-bottom: 15rem;
 }
+@media only screen and (max-width: 576px) {
+  .s-services {
+    padding-bottom: 9rem;
+  }
+}
 
 html {
   overflow-x: hidden !important;
