@@ -182,6 +182,11 @@ body {background-color: #FAF9F4;}
   }
 }
 
+/* Fixing Mobile Vertical View */
+.vertical {
+  padding-bottom: 3rem;
+}
+
 /* Fixing Mobile Landscape View */
 @media only screen and (max-width: 800px) and (orientation: landscape) {
   .cta {
@@ -235,8 +240,14 @@ a:hover {
 
 .s-about {
   padding-top: 16.2rem;
-  padding-bottom: 5rem;
+  padding-bottom: 12rem;
   position: relative;
+}
+@media only screen and (max-width: 576px) {
+  .s-about {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
 }
 
 .nav-text {
@@ -245,14 +256,25 @@ a:hover {
   color: #FAF9F4;
 }
 
-.contact__line {
+.portfolio__line {
   display: block;
   width: 2px;
-  height: 20.4rem;
+  height: 7rem;
   background-color: #3F5523;
   position: absolute;
   left: 50%;
-  top: -10.2rem;
+  top: -7rem;
+  margin-left: -1px;
+}
+
+.contact__line {
+  display: block;
+  width: 2px;
+  height: 7rem;
+  background-color: #F7F4DB;
+  position: absolute;
+  left: 50%;
+  top: 0rem;
   margin-left: -1px;
 }
 .s-contact {
@@ -271,11 +293,56 @@ a:hover {
 }
 
 /* Rellax JS Shapes */
-.circlesmall {
-  height: 10rem;
-  width: 10rem;
+.circleright {
+  height: 30rem;
+  width: 30rem;
+  right: -10rem;
+  position:absolute;
   background-color:#F7F4DB;
   border-radius: 50%;
+  overflow: hidden;
+}
+.circleleft {
+  height: 17rem;
+  width: 17rem;
+  left: -2rem;
+  bottom: 5rem;
+  position:absolute;
+  background-color:#F7F4DB;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.circleoutlineleft {
+  height: 10rem;
+  width: 10rem;
+  left: 10rem;
+  bottom: 1rem;
+  position:absolute;
+  box-shadow: inset 0 0 0 0.1em #3F5523;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.circleoutlineright {
+  height: 12rem;
+  width: 12rem;
+  right: 15rem;
+  bottom: -2rem;
+  position:absolute;
+  box-shadow: inset 0 0 0 0.1em #3F5523;
+  border-radius: 50%;
+  overflow: hidden;
+}
+@media only screen and (max-width: 576px) {
+  .circleoutlineright {
+    display: none;
+  }
+  .circleoutlineleft {
+    display: none;
+}
+}
+.top {
+  z-index: 100 !important;
+  position: relative;
 }
 
 /* CTA Button */
