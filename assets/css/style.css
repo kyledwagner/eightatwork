@@ -95,6 +95,14 @@ body {background-color: #FAF9F4;}
   }
 }
 
+.no-webp .masthead {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("http://kylewagner.me/eightatwork/assets/img/peter-fogden-toB7tKXne7U-unsplash-lower.jpg");
+}
+
+.webp .masthead{
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("http://kylewagner.me/eightatwork/assets/img/peter-fogden-toB7tKXne7U-unsplash-lower.webp");
+}
+
 .masthead {
   height: 100vh;
   background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('http://kylewagner.me/eightatwork/assets/img/peter-fogden-toB7tKXne7U-unsplash-lower.jpg');
