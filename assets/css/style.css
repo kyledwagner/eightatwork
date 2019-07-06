@@ -257,7 +257,7 @@ a:hover {
 }
 .s-contact {
   background-color: #151515;
-  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('http://kylewagner.me/eightatwork/assets/img/peter-fogden-toB7tKXne7U-unsplash-lower.jpg');
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('http://kylewagner.me/eightatwork/assets/img/bennett-dungan-xScd4RblFy8-unsplash.jpg');
   background-repeat: no-repeat;
   background-position: center,center;
   padding-top: 15rem;
@@ -276,4 +276,32 @@ a:hover {
   width: 10rem;
   background-color:#F7F4DB;
   border-radius: 50%;
+}
+
+/* CTA Button */
+.nav-link {
+  background-color: #FAF9F4;
+  border-radius: 1.5em;
+  border: 2px solid #FAF9F4;
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.15;
+  padding: .7em 1.5em .65em;
+  text-align: center;
+  text-decoration: none;
+  text-rendering: optimizeLegibility;
+}
+.nav-link:hover {
+  cursor: pointer;
+  transition: .3s;
+}
+.nav-link--style-1 {
+  background-color: transparent;
+  border-color: #FAF9F4;
+  color: #FAF9F4;
+}
+.nav-link--style-1:focus, .nav-link--style-1:hover {
+  background-color: #FAF9F4;
+  border: 2px solid #FAF9F4;
+  color: #3F5523;
 }
