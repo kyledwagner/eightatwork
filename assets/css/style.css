@@ -353,8 +353,15 @@ html {
   }
   .circleoutlineleft {
     display: none;
+  }
+  .circleleft {
+    bottom: 10rem;
+  }
+  .circleright {
+    top: 15rem;
+  }
 }
-}
+
 .top {
   z-index: 100 !important;
   position: relative;
