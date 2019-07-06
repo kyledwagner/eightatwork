@@ -6,6 +6,11 @@ html.sr .load-hidden {
   visibility: hidden;
 }
 
+html {
+  overflow-x: hidden;
+  overflow-x: -moz-hidden-unscrollable;
+}
+
 /* Typography */
 h1, h2, h3 {font-family: 'DM Serif Display', serif;}
 p, span {font-family: 'Montserrat', sans-serif; margin-bottom: 0rem;}
@@ -300,7 +305,6 @@ a:hover {
   position:absolute;
   background-color:#F7F4DB;
   border-radius: 50%;
-  overflow: hidden;
 }
 .circleleft {
   height: 17rem;
@@ -310,7 +314,6 @@ a:hover {
   position:absolute;
   background-color:#F7F4DB;
   border-radius: 50%;
-  overflow: hidden;
 }
 .circleoutlineleft {
   height: 10rem;
@@ -320,7 +323,6 @@ a:hover {
   position:absolute;
   box-shadow: inset 0 0 0 0.1em #3F5523;
   border-radius: 50%;
-  overflow: hidden;
 }
 .circleoutlineright {
   height: 12rem;
@@ -330,7 +332,6 @@ a:hover {
   position:absolute;
   box-shadow: inset 0 0 0 0.1em #3F5523;
   border-radius: 50%;
-  overflow: hidden;
 }
 @media only screen and (max-width: 576px) {
   .circleoutlineright {
