@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=DM+Serif+Display|DM+Serif+Text&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Varela+Round&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,700&display=swap');
 
 /* Fixes ScrollReveal flicker */
@@ -7,11 +7,11 @@ html.sr .load-hidden {
 }
 
 /* Typography */
-h1, h2, h3 {font-family: 'DM Serif Display', serif;}
+h1, h2, h3 {font-family: 'Varela Round', sans-serif;}
 p, span {font-family: 'Montserrat', sans-serif; margin-bottom: 0rem;}
 
 .text-hero {
-  font-family: 'DM Serif Display', serif;
+  font-family: 'Varela Round', sans-serif;
   font-size: 5rem;
   line-height: 1;
   color: #FAF9F4;
@@ -20,7 +20,7 @@ p, span {font-family: 'Montserrat', sans-serif; margin-bottom: 0rem;}
 h2 {
   font-size: 3rem;
   line-height: 1;
-  color: #3F5523;
+  color: #3d5b58;
 }
 
 .text-light-green {
@@ -172,7 +172,7 @@ body {background-color: #FAF9F4;}
   display: block;
   width: 2px;
   height: 10.2rem;
-  background-color: #3F5523;
+  background-color: #3d5b58;
   position: absolute;
   right: 7.2rem;
   top: 0;
@@ -268,7 +268,7 @@ a:hover {
   display: block;
   width: 2px;
   height: 7rem;
-  background-color: #3F5523;
+  background-color: #3d5b58;
   position: absolute;
   left: 50%;
   top: -7rem;
@@ -322,7 +322,7 @@ html {
   width: 30rem;
   right: -10rem;
   position:absolute;
-  background-color:#F7F4DB;
+  background-color:#fecb8b;
   border-radius: 50%;
 }
 .circleleft {
@@ -331,7 +331,7 @@ html {
   left: -2rem;
   bottom: 5rem;
   position:absolute;
-  background-color:#F7F4DB;
+  background-color:#fecb8b;
   border-radius: 50%;
 }
 .circleoutlineleft {
@@ -340,7 +340,7 @@ html {
   left: 10rem;
   bottom: 1rem;
   position:absolute;
-  box-shadow: inset 0 0 0 0.1em #3F5523;
+  box-shadow: inset 0 0 0 0.1em #3d5b58;
   border-radius: 50%;
 }
 .circleoutlineright {
@@ -349,7 +349,7 @@ html {
   right: 15rem;
   bottom: -2rem;
   position:absolute;
-  box-shadow: inset 0 0 0 0.1em #3F5523;
+  box-shadow: inset 0 0 0 0.1em #3d5b58;
   border-radius: 50%;
 }
 @media only screen and (max-width: 576px) {
@@ -397,5 +397,5 @@ html {
 .nav-link--style-1:focus, .nav-link--style-1:hover {
   background-color: #FAF9F4;
   border: 2px solid #FAF9F4;
-  color: #3F5523;
+  color: #3d5b58;
 }
