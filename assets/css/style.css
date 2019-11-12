@@ -96,16 +96,16 @@ body {background-color: #FAF9F4;}
 }
 
 .no-webp .masthead {
-  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("http://kylewagner.me/eightatwork/assets/img/peter-fogden-toB7tKXne7U-unsplash-lower.jpg");
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("/assets/img/peter-fogden-toB7tKXne7U-unsplash-lower.jpg");
 }
 
 .webp .masthead{
-  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("http://kylewagner.me/eightatwork/assets/img/peter-fogden-toB7tKXne7U-unsplash-lower.webp");
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("/assets/img/peter-fogden-toB7tKXne7U-unsplash-lower.webp");
 }
 
 .masthead {
   height: 100vh;
-  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('http://kylewagner.me/eightatwork/assets/img/peter-fogden-toB7tKXne7U-unsplash-lower.jpg');
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('/assets/img/peter-fogden-toB7tKXne7U-unsplash-lower.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -287,7 +287,7 @@ a:hover {
 }
 .s-contact {
   background-color: #151515;
-  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('http://kylewagner.me/eightatwork/assets/img/thong-vo-ZLmSzOPoUno-unsplash.jpg');
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('/assets/img/thong-vo-ZLmSzOPoUno-unsplash.jpg');
   background-repeat: no-repeat;
   background-position: center,center;
   padding-top: 15rem;
